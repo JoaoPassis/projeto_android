@@ -87,18 +87,25 @@ nav{
     box-shadow: 0px 7px 7px rgba(0, 0, 0, 0.337);
    
 }
-nav > a {
+nav > ul{
+    list-style-type: none;
+}
+nav > ul > li{
+    display: inline-block;
+    padding: 5px;
+}
+nav > ul > li > a {
 color: #83e1ad;
     text-decoration: none;
     padding: 10px;
     border-radius: 5px;
 font-weight: bold;
-transition-duration: .5s;
+transition-duration: .4s;
 }
 
-nav > a:hover {
-
-    background-color:var(--cor3) ;
+nav > ul > li > a:hover {
+    margin: 10px 10px 0px 10px;
+    background-color:var(--cor3);
     color: var(--cor5);
 }
 
@@ -127,6 +134,8 @@ color: #1a5c37;
         font-family: var(--fonte-android);
         font-size: 1.3em;
         background-image: linear-gradient( to right, var(--cor1),transparent);
+        border-top-left-radius:5px ;
+        
         text-indent: 8px;
         font-weight: normal;
     }
@@ -151,13 +160,14 @@ margin: 15px 0px;
         font-weight: bold;
         color: #1a5c37;
         background-color: #83e1ad;
+        border-radius: 5px;
         padding: 2px 6px;
     }
     
 main a:hover {
 
     text-decoration: underline;
-    color: #2fa866;
+    color: #407a57;
 }
 
     main img {
@@ -214,6 +224,9 @@ aside  > h3 {
         list-style-position: inside;
         columns: 2;
     }
+    aside > ul > li {
+        padding: 2px;
+    }   
 
     
     footer {

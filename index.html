@@ -11,21 +11,25 @@
 
 <body>
     
-<header>
+<header role="banner">
     <h1>Curiosidades de Tecnologia</h1>
 
     <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar
     </p>
 </header>
 
-<nav>
-    <a href="#">Home
-    </a>
-    <a href="#">Notícias</a>
-    
-    <a href="#">Contato</a>
+<nav role="navigation">
+    <ul>
+      <li>
+        <a href="#">Home
+        </a>
+      </li>
+      <li><a href="#">Notícias</a></li>
+      
+      <li><a href="#">Contato</a></li>
+    </ul>
 </nav>
-<main>
+<main role="main">
 
 <article>
 
@@ -46,7 +50,7 @@
                
            </p>
            
-           <picture> 
+           <picture role="img"> 
             
             <source media="(max-width: 800px)" srcset="imagens/dan-droids-pq.png">
             
@@ -63,7 +67,7 @@
                A ideia de ter um mascote foi amadurecendo e a missão foi passada para uma profissional da área. A ilustradora Russa <a href="https://www.irinablok.com/" target="_blank" class="externo">Irina Blok</a>, também funcionária do Google, ficou com a missão de representar o pequeno robô de uma maneira mais agradável.
                
            </p>
-            <picture>
+            <picture role="img">
               
               <source media="(max-width: 800px)" srcset="imagens/irina-blok-pq.jpg">
               
@@ -73,7 +77,7 @@
                A ideia principal da Irina era representar tudo graficamente com poucos traços e de forma mais chapada. O desenho também deveria gerar identificação rápida com quem o olha. Surgiu então o <strong>Bugdroid</strong>, o novo mascote do Android.
                
            </p>
-           <img src="imagens/bugdroid.png" class="pequena" alt="Bugdroid">
+           <img src="imagens/bugdroid.png" class="pequena" alt="Bugdroid" role="img">
 
             <p>
                 A principal inspiração para os traços do novo <strong>Bugdroid</strong> veio daqueles bonequinhos que ilustram portas de banheiro para indicar o gênero de cada porta. Conta a lenda que a artista estava criando em sua mesa no escritório do <strong>Google</strong> e olhou para o lado dos banheiros e a identificação foi imediata: simples, limpo, objetivo.
@@ -84,7 +88,7 @@
               <iframe width="560" height="315" src="https://www.youtube.com/embed/l2UDgpLz20M?si=MZn9OiOPwWVEINAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
             
-            <aside>
+            <aside role="complementary">
                 <h3>Quer aprender mais?</h3>
                 
                 <p>Outro assunto curioso em relação ao Android é que cada versão sempre foi nomeada em homenagem a um doce, em ordem alfabética a partir da versão 1.5 até a 9.0.</p>
@@ -92,60 +96,60 @@
               <ul>
                   
                   <li>
-                    1.5 - <abbr title="Bolo de Copo">Cupcake</abbr>
+                    1.5 - Cupcake
                 </li>
 
                   <li>
-                    1.6 - <abbr title="Rosquinha">Donut</abbr>
+                    1.6 - Donut
                 </li>
 
                   <li>
-                    3.0 - <abbr title="Bomba">Eclair</abbr>
+                    3.0 - Eclair
                 </li>
 
                   <li>
-                    2.2 - <abbr title="Iogurte Congelado">Froyo</abbr>
+                    2.2 - Froyo
                 </li>
 
                   <li>
-                    2.3 - <abbr title="Biscoito de Gengibre">Gingerbread</abbr>
+                    2.3 - Gingerbread
+                </li>
+
+                  <li >
+                    3.0 - Honeycomb
                 </li>
 
                   <li>
-                    3.0 - <abbr title="Favo de Mel">Honeycomb</abbr>
-                </li>
-
-                  <li>
-                    4.0 - <abbr title="Saunduíche de Sorvete">Ice Cream Sandwich</abbr>
+                    4.0 - Ice Cream Sandwich
                 </li>
 
                   <li>
                     
-                    4.1 - <abbr title="Jujuba">Jelly Bean</abbr>
+                    4.1 - Jelly Bean
                 </li>
 
                   <li>
-                    4.4 - <abbr title="KitKat">KitKat</abbr>
+                    4.4 - KitKat
                 </li>
 
                   <li>
-                    5.0 - <abbr title="Pirulito">Lolipop</abbr>
+                    5.0 - Lolipop
                 </li>
 
                   <li>
-                    6.0 - <abbr title="Marshmellow">Marshmallow</abbr>
+                    6.0 - Marshmallow
                 </li>
 
                   <li>
-                    7.0 - <abbr title="Torrone">Nougat</abbr>
+                    7.0 - Nougat
                 </li>
 
                   <li>
-                    8.0 - <abbr title="Oreo">Oreo</abbr>
+                    8.0 - Oreo
                 </li>
 
                   <li>
-                    9.0 - <abbr title="Torta">Pie</abbr>
+                    9.0 - Pie
                 </li>
                   
               </ul>
@@ -163,7 +167,7 @@
 </article>
 
 </main>
-<footer><p>Site criado por <a href="https://www.instagram.com/joaoassissz6/" target="_blank">João Pedro Assis</a> no <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">CursoemVideo</a>.</p></footer>
+<footer role="contentinfo"><p>Site criado por <a href="https://www.instagram.com/joaoassissz6/" target="_blank">João Pedro Assis</a> no <a href="https://www.youtube.com/c/CursoemV%C3%ADdeo" target="_blank">CursoemVideo</a>.</p></footer>
 
 </body>
 </html>
